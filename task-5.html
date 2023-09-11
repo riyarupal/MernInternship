@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #c1{
+            text-align: center;
+        }
+
+        table{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table input{
+            width: max-content;
+            height: max-content;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">Registration form <br></h1>
+    <form>
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <td id="c1">
+                    <label for="firstname">First Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="firstname" placeholder="firstname" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="lasttname">Last Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="lastname" placeholder="lastname" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="email">Email: </label>
+                </td>
+                <td>
+                    <input type="email" id="email" placeholder="email" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="password">Password: </label>
+                </td>
+                <td>
+                    <input type="password" id="password" placeholder="password" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="re-password">Re-password: </label>
+                </td>
+                <td>
+                    <input type="password" id="re-password" placeholder="Re-password" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    Gender:
+                </td>
+                <td>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="male" placeholder="male"/>
+                    <label for="Female">Female</label>
+                    <input type="radio" id="female" placeholder="female"/>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="Age">Age: </label>
+                </td>
+                <td>
+                    <input type="number" id="age" name="age" placeholder="age" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="Phone">Phone: </label>
+                </td>
+                <td>
+                    <input type="tel" id="phone" placeholder="phone" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="Address">Address: </label>
+                </td>
+                <td>
+                    <input type="text" id="address" name="address" rows="4" cols="50" placeholder="enter address" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="state">State:</label>
+                </td>
+                <td>
+                    <input type="text" id="state" name="state" placeholder="state" /><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    <label for="country">Country:</label>
+                </td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="" disabled selected>Select a country</option>
+                        <option value="US">United States</option>
+                        <option value="CA">India</option>
+                        <option value="GB">United Kingdom</option>
+                        <!-- Add more country options as needed -->
+                    </select><br><br>
+                </td>
+            </tr>
+    
+            <tr>
+                <td id="c1">
+                    Language:
+                </td>
+    
+                <td>
+                    <label for="English">English</label>
+                    <input type="checkbox" id="English"/>
+                    <label for="Kannada">Kannada</label>
+                    <input type="checkbox" id="Kannada"/>
+                    <label for="Hindi">Hindi</label>
+                    <input type="checkbox" id="Hindi"/>
+                    <label for="Telugu">Telugu</label>
+                    <input type="checkbox" id="Telugu"/>
+                </td>
+            </tr>
+    
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox">
+                    <label>Here by I declare all the given details are true</label>
+                </td>
+            </tr>
+    
+            <tr>
+                <td colspan="2" style="text-align: right" >
+                    <copy>Login to <a href="https://ethnus.com/" target="_parent">Ethnus</a>website</copy>
+                </td>
+            </tr>
+        </table><br><br>
+        <input type="submit" value="Save" style="font-size: 20px;">
+    </form>
+</body>
+</html>

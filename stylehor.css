@@ -1,0 +1,36 @@
+.navbar {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    background-color: rgb(171, 169, 169);
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    display: flex;
+    border-right: 1px solid blue; /* Use a valid color value (#000 is black) */
+}
+
+.navbar li:last-child {
+    border-right: none; /* Remove right border for the last li element */
+}
+
+.navbar li a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar li:hover {
+    background-color: orange;
+}
+

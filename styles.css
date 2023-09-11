@@ -1,0 +1,40 @@
+table {
+    border-collapse: separate;
+    border-spacing: 1;
+    width: 100%;
+    background-color: aqua;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #000; /* Border around each cell */
+}
+
+td,th,table {
+    border-radius: 10px; /* Adjust the radius as needed */
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 150px;
+    border: 1px solid black;
+}
+
+li{
+    padding: 10px;
+    background-color: lightblue;
+}
+
+li a{
+    display: block;
+    text-decoration: orange;
+}
+
+li a:hover{
+    background-color: orange;
+}
+

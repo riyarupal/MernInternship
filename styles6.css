@@ -1,0 +1,47 @@
+#img1{
+    padding-left: 700px;
+}
+
+form{
+    padding-left: 500px;
+}
+input[type=text],input[type=password]{
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: bold;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#cancelbut{
+    background-color: red;
+    width: auto;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+
+p{
+    background-color: rgb(213, 211, 211);
+    display: inline-block;
+}
+
+
+span.psw {
+    padding-left: 350px;
+  }
+
